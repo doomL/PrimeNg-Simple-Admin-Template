@@ -1,0 +1,66 @@
+@import "src/assets/style/_variables.scss";
+
+.login {
+    max-width: 400px;
+    min-width: 250px;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #EEEEEE;
+    font-family: $font;
+    background-color: $header-background;
+
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    h2 {
+        text-align: center;
+        color: $header-color;
+    }
+
+    .p-inputgroup {
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+        background-color: $sidemenu-background;
+        color: $sidemenu-color;
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: $sidemenu-hover-background;
+        color : $sidemenu-hover-color;
+    }
+
+    p {
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            color: $header-color;
+        }
+
+        a:hover{
+            color: $header-hover-color;
+        }
+    }
+}
+
+// Remove On Production
+.foot {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
